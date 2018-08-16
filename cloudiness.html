@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Cloudiness_of_Latitude_vs_Climate_by_Lucas_Liang</title>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" 
+    crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+      crossorigin="anonymous"></script>
+
+    <!-- YOUR CUSTOM STYLESHEETS GO HERE -->
+    <link href="./my_css.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- YOUR HTML CODE GOES HERE! -->
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">Lattitude | Home</a>         
+            </div>
+
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- <li><a href="../navbar/">Plots</a></li> -->
+                        <!-- <li class="active"><a href="./">Plots</a></li>-->
+                        <!-- <li><a href="../navbar/">Plots</a></li> -->
+                        <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="./max_temp.html">Max Temperature</a></li>
+                                  <li><a href="./humidity.html">Humidity</a></li>
+                                  <li class="active"><a href="./cloudiness.html">Cloudiness</a></li>
+                                  <li><a href="./wind.html">Wind Speed</a></li>
+                                </ul>
+                        </li>
+                        <li><a href="./comparison.html">Comparison</a></li>
+                        <li><a href="./data.html">Data</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="col-7 col-lg-7 col-md-5 col-sm-3 text-left">
+            <box>
+                <h1>Latitude vs. Cloudiness<img id="cloud_logo" style="float: right" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3eoOdGfSlVn8-DCLQJiyoubeZzjqYZKFLOpa0-vo-dVg69rvs7A" class="img-fluid" alt="Cinque Terre"></h1>
+                <hr>
+                <img id="cloud_pic" style="float: left" src="https://raw.githubusercontent.com/wliangm/Web_Visualization/master/Fig3.png" class="img-responsive" alt="Cinque Terre">
+                <p>Cloudiness don't have much of relationship with latitude. Cloudiness are evenly distributed across full range of latitude.</p>
+            </box> 
+        </div>
+    
+        <div class="col-lg-1"> </div>
+
+    
+        <div class="col-4 col-lg-4 col-md-3 col-sm-2 text-center">
+            <box>
+                <h2>Visualizations</h2>
+                <hr>
+                <a href="./max_temp.html"><img id="visual_pic_1" style="float: left" src="https://raw.githubusercontent.com/wliangm/Web_Visualization/master/Fig1.png" class="img-responsive" alt="Cinque Terre"></a>
+                <a href="./humidity.html"><img id="visual_pic_2" style="float: left" src="https://raw.githubusercontent.com/wliangm/Web_Visualization/master/Fig2.png" class="img-responsive" alt="Cinque Terre" ></a>
+                <a href="./cloudiness.html"><img id="visual_pic_3_border" style="float: left" src="https://raw.githubusercontent.com/wliangm/Web_Visualization/master/Fig3.png" class="img-responsive" alt="Cinque Terre"></a>
+                <a href="./wind.html"><img id="visual_pic_4" style="float: left" src="https://raw.githubusercontent.com/wliangm/Web_Visualization/master/Fig4.png" class="img-responsive" alt="Cinque Terre"></a>
+            </box> 
+        </div>
+
+    </div>
+  </body>
+</html>

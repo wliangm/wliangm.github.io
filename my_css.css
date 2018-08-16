@@ -1,0 +1,210 @@
+.navbar-default .navbar-brand{
+    background-color: #008080;
+    color: white;
+}
+
+
+/*
+body {
+    background-color: lightgrey;
+}
+*/
+
+
+.col-lg-1 {
+    background-color:  white;
+ }
+
+.col-lg-7, .col-lg-4 {
+    background-color: white;
+}
+
+
+h1 {
+    text-align: left;
+    font-weight: bold;
+    color: #008080;
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 38px;
+}
+
+h3 {
+    text-align: left;
+    font-weight: bold;
+    color: #008080;
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #008080;
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 38px;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+    color: #008080;
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+#summary_pic {
+    width: 380px;
+    height: 250px;
+}
+
+#humidity_logo {
+    width: 10%
+}
+
+#temp_logo {
+    width: 8%
+}
+
+#cloud_logo {
+    width: 10%
+}
+
+#wind_logo {
+    width: 10%
+}
+
+#comparison_logo {
+    width: 10%
+}
+
+#data_logo {
+    width: 10%
+}
+
+#heat_pic {
+    width: 400px;
+    height: 220px;
+}
+#humidity_pic  {
+    width: 650px;
+    height:400px;
+}
+
+#max_temp_pic  {
+    width: 650px;
+    height:400px;
+}
+
+#cloud_pic  {
+    width: 650px;
+    height:400px;
+}
+
+#wind_pic  {
+    width: 650px;
+    height:400px;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif; font-size: 18px;
+}
+
+#comp_pic_1 {
+    width: 500;
+    height: 340;
+
+}
+
+#comp_pic_2 {
+    width: 500;
+    height: 340;
+}
+
+#comp_pic_3 {
+    width: 500;
+    height: 340;
+}
+
+#comp_pic_4 {
+    width: 500;
+    height: 340;
+}
+
+/*
+.img-responsive {
+    width: 170px;
+    height: 110px;
+}*/
+
+#visual_pic_1_border {
+    width: 170px;
+    height: 110px;
+    border: 2px solid lightgrey;
+}
+
+#visual_pic_2_border {
+    width: 170px;
+    height: 110px;
+    border: 2px solid lightgrey;
+
+}
+
+#visual_pic_3_border {
+    width: 170px;
+    height: 110px;
+    border: 2px solid lightgrey;
+   
+}
+
+#visual_pic_4_border {
+    width: 170px;
+    height: 110px;
+    border: 2px solid lightgrey;
+    
+}
+
+#visual_pic_1 {
+    width: 170px;
+    height: 110px;
+}
+
+#visual_pic_2 {
+    width: 170px;
+    height: 110px;
+}
+
+#visual_pic_3 {
+    width: 170px;
+    height: 110px;
+}
+
+#visual_pic_4 {
+    width: 170px;
+    height: 110px;    
+}
+
+table#data_table th {
+    color: white;
+    background-color: #008080;;
+}
+
+
+/*
+table#data_table tr:nth-child(even) {
+    background-color: white;
+}
+
+table#data_table tr:nth-child(odd) {
+    background-color:#F0F8FF;
+}
+
+
+
+table#data_table table {
+    border-collapse: collapse;
+}
+*/
